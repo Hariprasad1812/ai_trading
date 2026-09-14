@@ -930,6 +930,7 @@ function App() {
 >
   Interpret Results
 </button>
+        </>
     )}
 
   </main>
