@@ -923,7 +923,13 @@ function App() {
 
 </div>
 
-      </>
+      
+<button
+  className="primary-button"
+  onClick={() => setStep("learn")}
+>
+  Interpret Results
+</button>
     )}
 
   </main>
