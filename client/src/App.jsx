@@ -24,7 +24,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/research/analyze",
+        "https://ai-trading-1-1hux.onrender.com/api/research/analyze",
         {
           method: "POST",
           headers: {
@@ -610,7 +610,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/research/test"
+        "https://ai-trading-1-1hux.onrender.com/api/research/test"
       );
 
       console.log("Backtest result:", response.data);
